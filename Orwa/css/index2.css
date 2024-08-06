@@ -6,10 +6,12 @@ body {
     padding: 30px 0;
 }
 .gallery-title {
+    font-style: italic;
     text-align: center;
     margin-bottom: 50px;
     font-size: 3em;
-    color: #330303;
+    color: #931212;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(162, 223, 7), 0 0 0.2em rgb(249, 163, 5);
 }
 .photo-card {
     margin-bottom: 30px;
