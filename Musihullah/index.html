@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+  <link href="./css/index.css" rel="stylesheet">
   <!-- Zone CSS Bootstrap pour le MENU (Ne pas toucher :-) ) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Zone CSS Vous pouvez ajouter du CSS si vous voulez  
@@ -19,11 +20,104 @@
   <header id="id-header"></header>
 
   <!-- Zone CONTENU (Vous devez coder ICI :-) ) -->
-  <div class="container-fluid mt-3">
+  <!-- <div class="container-fluid mt-3">
     <h1>La page de Masihullah</h1>
     <p>BlaBla modifié</p>
     <img src="./images/Algo.jpg" alt="Algo" />
     <img src="./images/Bootstrap.png" alt="Bootstrap" />
+  </div> -->
+  <div id="top-link">
+    <img src="https://www.afpa.fr/image/layout_set_logo?img_id=34521924&t=1722636000489"  class="afpa-logo">
+   <img src="https://www.iconpacks.net/icons/2/free-location-icon-2955-thumb.png">
+    <a href="#">Trouve ma formation</a>
+    <button class="btn btn-mon-compte">
+        <img src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" alt="User Icon">
+        Mon compte
+      </button> 
+</div>
+
+<nav id="idnavv" class="navbar navbar-expand-md  ">
+    <div class="container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Je suis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Particulier">Particulier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Partenaire">Partenaire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Entreprise.html">Entreprise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Actaulités">Actaulités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="temoignages.html">temoignages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formation.html">formation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactez nous.html">contactez nous</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search bar -->
+  <div class="container search-bar">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Recherche une formation,un metier,un mot clé..." aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Recherche</button>
+    </form>
+  </div>
+  
+  <h1 id=heading >Ces entreprise nous ont fait confiance</h1>
+
+  <div id="entreprise-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-around">
+          <img src="https://www.solutions-ressources-humaines.com/logo/d9f009be20f29d7akka.png" alt="AKKA entreprise">
+          <img src="https://wallpapers.com/images/hd/wisy-logo-orangeand-purple-xotnky1bwrr78jug.jpg" alt="wisy entreprise">
+          <img src="https://www.afpa.fr/documents/21653/17470341/REGION+LANGUEDOC+ROUSSILLON.jpg/d6f7b8f6-6780-4479-a47f-1c5ef67f7a2f?t=1487579817000" alt="occcitanie">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-around">
+          <img src="https://www.afpa.fr/documents/21653/17470341/REGION+NORMANDIE.jpg/b239e95a-24f3-4f9e-859b-d2d3439a4d46?t=1458746760000" alt="Region normandie">
+          <img src="https://www.afpa.fr/documents/21653/19566662/LOGO_Horizontal_RVB+%281%29.png/855e2cb6-ea65-bb9a-70bb-aa60261bda0e?t=1673344769000" alt="hprizontal">
+          <img src="https://www.afpa.fr/documents/21653/22188/region+corse.jpg/6671f307-2342-4bf4-9e39-bd27fe474bc7?t=1439281821000" alt="Region corse">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-around">
+          <img src="https://www.afpa.fr/documents/21653/22188/LOGO-PACA.jpg/57b3cf26-669d-45c0-b04b-fbe24bae1967?t=1550045489000" alt="LOGO-PACA">
+        </div>
+      </div>
+    </div>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#entreprise-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#entreprise-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#entreprise-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#entreprise-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#entreprise-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
   <!-- Zone Footer (Ne pas toucher :-) ) -->
