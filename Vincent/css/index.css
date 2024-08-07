@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: gold;
+}
+
+.Titre h1,
+p {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.carousel-container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(224, 206, 9);
+}
+
+.carousel-caption {
+  border-radius: 10px;
+  border: 1px solid black;
+  border-style: dotted;
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+img {
+  border: 2px solid black;  
+  border-radius: 30px;
+  margin: 10px;
+  padding: 3px;  
+}
